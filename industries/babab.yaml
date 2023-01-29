@@ -7,11 +7,50 @@ colour: 1
 fundCostMultiplier: 100
 id: 1
 layout:
-- - - -1
+- - - 1
 name: BABAB
 placement: anywhere
 probabilityInGame: 5
 probabilityMapGen: 3
 prospectChance: 0
-tiles: []
+tiles:
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/babab/2.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/babab/1.png
+      left: -31
+      top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/babab/3.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/babab/5.png
+      left: -31
+      top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/babab/4.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      id: 0
+      left: -31
+      top: 0
 type: secondary
