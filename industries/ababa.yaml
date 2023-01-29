@@ -7,11 +7,24 @@ colour: 1
 fundCostMultiplier: 100
 id: 0
 layout:
-- - - -1
+- - - 0
 name: ABABA
 placement: anywhere
 probabilityInGame: 5
 probabilityMapGen: 3
 prospectChance: 75
-tiles: []
+tiles:
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/ababa/2.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/ababa/1.png
+      left: -31
+      top: 0
 type: primary
