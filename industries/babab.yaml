@@ -1,16 +1,17 @@
 available: false
 callbacks: ''
-cargoAcceptance: []
+cargoAcceptance:
+- NEWC
 cargoProduction: []
 colour: 1
 fundCostMultiplier: 100
 id: 1
 layout:
 - - - -1
-name: 'New industry #1'
+name: BABAB
 placement: anywhere
 probabilityInGame: 5
 probabilityMapGen: 3
-prospectChance: 75
+prospectChance: 0
 tiles: []
-type: primary
+type: secondary
